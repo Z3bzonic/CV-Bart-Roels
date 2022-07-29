@@ -1,0 +1,149 @@
+/* div :nth-child(even), h6{ 
+    background-color: bisque;
+}
+div :nth-child(odd), h6{ 
+    background-color: rgb(126, 255, 143);
+} */
+
+
+
+.skillgrid{
+    display: grid;
+    grid-template-columns: 4fr 1fr 5fr;
+    margin: 5% auto;
+}
+
+.smallimage{
+    height: 35px;
+    width: auto;
+}
+
+.skill{
+    display: flex;
+    justify-content: end;
+    grid-column: 1;
+    padding-right: 10%;
+}
+
+.skillicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+}
+
+.skillbar{
+    grid-column: 3;
+}
+
+.card{
+    width: 18rem;
+    margin: 2vh auto;
+}
+
+.download{
+    position: absolute;
+    top: 75%;
+    left: calc(50% - 40px);
+}
+
+.navbutton{
+    margin-left: 88%;
+}
+
+.bottomfader{
+    background-image: linear-gradient(rgba(0, 0, 0,0),white,white,white );
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+}
+
+.space{
+    width: 100%;
+    height: 3vh;
+}
+
+.navbar a{
+    color: palegoldenrod;
+}
+
+
+.textblock{
+    color: palegoldenrod;
+    display: block;
+    position: absolute;
+    left: calc(50% - 85px);
+    top: 30%;
+    text-align: center;
+}
+
+.mainscreen{
+    background-image: url("images/Main_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.tagwrapper{
+    position: absolute;
+    display: flex;
+    left: calc(50% - 50px);
+    top: 50%;
+}
+
+.titletags{
+    display: inline-block;
+    text-align: center;
+}
+
+.titletags h2{
+    transform: rotate(2deg);
+    border-radius: 90%;
+    box-shadow: rgba(255, 202, 30, 0.35) 0px 5px 15px;
+}
+
+.titletags h4, .titletags h2{
+    color: palegoldenrod;
+}
+
+.icons{
+    position: relative;
+    left: 90%;
+}
+
+
+
+.section-header{
+    margin: 20 0px;
+    background-image: linear-gradient(white,white,white, rgba(0, 0, 0,0));
+    z-index: 1;
+}
+
+.container{
+}
+
+.imageconstraint{
+    height: 300px;
+    width: auto;
+}
+
+.progress{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
