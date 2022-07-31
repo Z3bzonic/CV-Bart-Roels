@@ -11,6 +11,34 @@ div :nth-child(odd), h6{
     
 } */
 
+.r45{
+    position: relative;
+    transform: rotate(45deg);
+    top: 30px;
+    animation: glow 1500ms linear infinite alternate;
+}
+
+.navgold{
+    background-color: palegoldenrod;
+}
+
+@keyframes glow {
+    0%{
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0.5;
+    }
+}
+
+.ontdek{
+    transform: rotate(-45deg);   
+}
+
+.more{
+    transform: rotate(45deg);  
+}
 
 .quote{
     font-family: 'Square Peg' ;
@@ -55,7 +83,7 @@ div :nth-child(odd), h6{
 }
 
 .highlight{
-    border-color: palegoldenrod;
+    border-color: #eee8aa;
     padding: 0 12px;
     border-style:dotted;
     border-radius: 48%;
