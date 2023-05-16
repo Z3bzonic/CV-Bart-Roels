@@ -196,6 +196,7 @@
 .card{
     width: 18rem;
     margin: 2vh auto;
+    height: 300px;
 }
 
 .download{
@@ -357,6 +358,15 @@
     border-radius: 10%;
 }
 
+
+.card-img-top{
+    height: 400px;
+    object-fit:cover;
+}
+
+.web{
+    height: 450px;
+}
 
 
 
