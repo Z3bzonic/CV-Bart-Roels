@@ -324,27 +324,29 @@
 }
 
 .git:hover::after{
+    text-align: center;
     background-color: lightyellow;
     color: black;
     content: 'Github';
     position: absolute;
     top: 2rem;
-    left: 0;
+    left: 21px;
     height: 20px;
     width: 75px;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 .linked:hover::after{
+    text-align: center;
     background-color: lightyellow;
     color: black;
-    content: 'Linked in';
+    content: 'Linkedin';
     position: absolute;
     top: 2rem;
-    left: 0;
+    left: -15px;
     height: 20px;
     width: 75px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .special{
