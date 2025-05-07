@@ -370,12 +370,6 @@
     height: 450px;
 }
 
-
-
-
-
-
-
-
-
-
+.btn:hover{
+    color: rgb(255, 255, 255);
+}
